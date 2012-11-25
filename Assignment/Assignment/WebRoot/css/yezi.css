@@ -1,0 +1,40 @@
+* {
+margin:0;
+padding:0;
+}
+html,
+body,
+.box {
+height:100%;
+text-decoration:none;
+}
+body {
+text-align:center;
+
+}
+
+.box {
+display:table;
+margin:0 auto;
+position:relative;
+background:#f1f0f0;
+}
+.box > div {
+display:table-row;
+}
+.header{
+background:red;
+height:20%;
+margin:5px;
+}
+.footer {
+margin:5px 5px 0 5px;
+height:20%;
+background:blue;
+}
+
+.main{
+margin:5px;
+height:60%;
+background:#ffffff;
+	}

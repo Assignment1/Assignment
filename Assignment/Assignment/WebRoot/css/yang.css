@@ -1,0 +1,36 @@
+/* CSS Document */
+      #globalNav {
+        background: url(../image/nav_bg_all.gif) repeat-x center bottom;
+        width: 949px;  height: 48px;
+        margin: 0 auto;
+      }
+      #globalNav ul {
+        padding: 0 0 8px 15px;
+      }
+      #globalNav #currentPage {
+        background: #71b9e0 url(../image/nav_bg_current.gif) no-repeat right top;
+        height: 40px;
+        float: left;
+        margin: 0 3px 0 0;
+      }
+      #globalNav #currentPage a {
+        font-size: 14px;
+        color: #FFF;
+        background: url(../inmage/nav_bg_current.gif) no-repeat left bottom;
+        height: 20px;
+        float: left;
+        padding: 10px 30px;
+      }
+      #globalNav li {
+        background: #f2f2f2 url(../image/nav_bg.gif) no-repeat right 0;
+        height: 34px;
+        float: left;
+        padding-right: 3px;   margin: 5px 3px 0 0;
+      }
+      #globalNav li a {
+        background: url(../image/nav_bg.gif) no-repeat left -34px;
+        height: 14px;
+        overflow: hidden;
+        float: left;
+        padding: 10px 20px 10px 23px;
+      }
