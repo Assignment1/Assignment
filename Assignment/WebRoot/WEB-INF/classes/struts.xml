@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.ui.theme" value="simple"></constant>
+<package name="com.controller" extends="struts-default">
+  <action name="register" class="com.controller.Register"> 
+       <result name="toTrue">/index.jsp</result>
+       <result name="input">/register.jsp</result>
+    </action>
+    <action name="login" class="com.controller.LogonAction"> 
+       <result name="student">/managerPlatform.jsp</result> 
+       <result name="teacher">/teacherIndex.jsp</result> 
+       <result name="manager">/managerPlatform.jsp</result> 
+       <result name="input">/index.jsp</result> 
+    </action>
+    <action name="managerList" class="com.controller.managerList">
+       <result name="toTrue">/teacherManager.jsp</result>
+    </action>
+    <action name="nonvemanagerOP" class="com.controller.nonvemanagerOP">
+       <result name="toTrue">/teacherManager.jsp</result>
+    </action>
+    <action name="vemanagerOP" class="com.controller.vemanagerOp">
+       <result name="toTrue">/teacherManager.jsp</result>
+    </action>
+    <action name="sethmwk" class="com.controller.SettingHmwkAction">
+     <result name="success">/teacherAssignment.jsp</result> 
+     <result name="input">/teacherAssignment.jsp</result> 
+    </action>
+    <action name="studentlist" class="com.controller.Showlist">
+     <result name="toTrue">managerStudent.jsp</result>
+    </action> 
+    <action name="nonvestudentOP" class="com.controller.nonvestudentOp"> 
+     <result name="toTrue">/managerStudent.jsp</result> 
+    </action> 
+    <action name="vestudentOP" class="com.controller.vestudentOp"> 
+     <result name="toTrue">/managerStudent.jsp</result> 
+    </action>
+</package>
+</struts>    

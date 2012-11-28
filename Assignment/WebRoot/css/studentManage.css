@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+body{
+}
+.header{
+height:70px;
+width:atuo;
+ background-color:lightblue;
+ 
+
+     }
+      .headinfor{
+float:right;
+ right:11px;
+ top:50px;
+ margin-top:45px;
+ margin-right:20px;
+ }
+ .headinfor  a{
+  text-decoration:none;
+  color:black;
+ }
+ .navigation{
+     height:atuo;
+     width:atuo;
+     margin-left:30px;
+     }
+ .navigation table td{
+     width:90px;
+     background-color:lightgreen;
+     height:30px;
+     }
+     .navigation a{
+  text-decoration:none;
+  color:black;
+ }
+ .notConfrimedStu{
+ position:absolute;
+ width:300px;
+ height:500px;
+ background-color:pink;
+ margin-left:33px;
+ }
+ .confrimedStu{ 
+ 
+ float:right;
+ margin-right:400px;
+ width:300px;
+ height:500px;
+ background-color:pink;
+ }
+  .search{
+ float:right;
+ margin-right:20px;}
